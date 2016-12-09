@@ -1,0 +1,6 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="id_contactVO" type="id"/>
+    <item name="id_position" type="id"/>
+
+</resources>

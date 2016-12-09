@@ -1,0 +1,36 @@
+<resources>
+
+    <string-array name="odorik_mode_key">
+        <item>callback</item>
+        <item>callback_contra</item>
+        <item>callbacksms</item>
+        <item>callbackskype</item>
+        <item>redirect</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="odorik_mode_value">
+        <item>@string/odorik_mode_callback</item>
+        <item>@string/odorik_mode_callback_contra</item>
+        <item>@string/odorik_mode_callbacksms</item>
+        <item>@string/odorik_mode_callbackskype</item>
+        <item>@string/odorik_mode_redirect_short</item>
+        <item>@string/odorik_mode_off</item>
+    </string-array>
+    <string-array name="odorik_mode_value_long">
+        <item>@string/odorik_mode_callback</item>
+        <item>@string/odorik_mode_callback_contra_long</item>
+        <item>@string/odorik_mode_callbacksms_long</item>
+        <item>@string/odorik_mode_callbackskype_long</item>
+        <item>@string/odorik_mode_redirect</item>
+        <item>@string/odorik_mode_off_long</item>
+    </string-array>
+    <string-array name="odorik_error_key">
+        <item>ignore</item>
+        <item>terminate</item>
+    </string-array>
+    <string-array name="odorik_error_value">
+        <item>@string/odorik_error_ignore</item>
+        <item>@string/odorik_error_terminate</item>
+    </string-array>
+
+</resources>

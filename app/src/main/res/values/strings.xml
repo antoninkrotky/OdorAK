@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OdorAK</string>
+    <!-- Tabs -->
+    <string name="tabSettings">Settings</string>
+    <string name="tabLog">Log</string>
+    <string name="tabAbout">About</string>
+    <string name="tabVersion">Show version</string>
+    <string name="tabRefresh">Refresh</string>
+    <string name="tabBalance">Balance</string>
+    <string name="log_send_email">Send</string>
+    <!-- Prefs -->
+    <string name="inline_credentials">Credentials</string>
+    <string name="inline_phone_number">Phone numbers</string>
+    <string name="inline_general">General</string>
+    <string name="odorik_id">Odorik API ID</string>
+    <string name="odorik_id_hint">www.odorik.cz->SignIn->Settings->AccountSetting->API password (User)</string>
+    <string name="odorik_pwd">API Password</string>
+    <string name="odorik_pwd_hint">www.odorik.cz->SignIn->Settings->AccountSetting->API password (Current API password) Case sensitive!</string>
+    <string name="odorik_number">Odorik phone number</string>
+    <string name="odorik_number_hint">Phone number assigned to your line (eg. 00420910123456). Used for redirection.</string>
+    <string name="mobile_number">Mobile phone number</string>
+    <string name="mobile_number_hint">Your mobile phone number (eg. 00420777123456). Used for redirection and CallBack.</string>
+    <string name="odorik_line">Odorik line number</string>
+    <string name="odorik_line_hint">www.odorik.cz->SignIn->Lines->YourLines(number). Used for CallBack.</string>
+    <string name="odorik_pin">Odorik PIN</string>
+    <string name="odorik_pin_hint">Used for SMS CallBack.</string>
+    <string name="skype_name">Skype name</string>
+    <string name="skype_name_hint">Used for Skype CallBack.</string>
+    <string name="inline_advanced">Advanced</string>
+    <string name="dialer_log_size">Dialer log items</string>
+    <string name="dialer_log_size_hint">Number of call log items in list</string>
+    <string name="dialer_list_size">Dialer items</string>
+    <string name="dialer_list_size_hint">Max number of items in dialer list</string>
+    <string name="target_number">Target number</string>
+    <string name="auto_call">Call automatically</string>
+    <string name="auto_call_hint">Process call automatically after start</string>
+	<!-- Alert -->
+	<string name="alert_dialog_settings">Settings</string>
+	<string name="alert_dialog_cancel">Cancel</string>
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+    <!-- Settings -->
+    <string name="odorik_mode_redirect_short">Redirect</string>
+    <string name="odorik_mode_redirect">Redirect</string>
+    <string name="odorik_mode_callback">CallBack</string>
+    <string name="odorik_mode_callback_contra">CB-Contra</string>
+    <string name="odorik_mode_callback_contra_long">CallBack contra</string>    
+    <string name="odorik_mode_callbacksms">CB-SMS</string>
+    <string name="odorik_mode_callbacksms_long">CallBack SMS</string>
+    <string name="odorik_mode_callbackskype">CB-Skype</string>
+    <string name="odorik_mode_callbackskype_long">CallBack Skype</string>
+    <string name="odorik_mode_off">Off</string>
+    <string name="odorik_mode_off_long">Dial</string>
+    <!--  -->
+    <string name="odorik_error">On error action</string>
+    <string name="odorik_error_hint">What to do when error occurs?</string>
+    <string name="odorik_error_ignore">Dial automatically</string>
+    <string name="odorik_error_terminate">Terminate and show app</string>
+    <!--  -->
+    <string name="bypass_list">Bypass list</string>
+    <string name="bypass_list_hint">List of number to dial every time (bypass OdoraAK). Number separator is # (eg. 777111111#7772222222#777333333)</string>
+    <!--  -->
+    <string name="csipsimple">CSipSimple installed</string>
+    <string name="csipsimple_hint">Check in case of problems.</string>
+    <!-- Log -->
+    <string name="empty_log">Log is empty</string>
+    <!-- Global -->
+    <string name="search_hint">Number to dial or text to search</string>
+    <string name="toast_off_ok">Calling&#8230;</string>
+    <string name="toast_off_bypass_list_ok">Number in the bypass list. Calling&#8230;</string>
+    <string name="toast_off_bypass_net_error_ok">An network error occurred. Ignoring and calling&#8230;</string>
+    <string name="toast_off_bypass_net_error">An network error occurred. Try please again.</string>    
+    <string name="alert_odorik_error_title">Odorik returned an error.</string>
+	<string name="alert_odorik_error_message_param">Used parameters: </string>    
+	<string name="alert_odorik_error_message_resp">Odorik response: </string>
+    <string name="toast_unknown_mode">Unknown mode chosen.</string>
+    <string name="toast_callbackskype_ok">CallBack to Skype ordered.</string>
+    <string name="toast_callbacksms_ok">Send prepared SMS to order CallBack.</string>
+    <string name="toast_callback_ok">CallBack orderd. Wait for incoming call.</string>
+    <string name="toast_redirect_ok">Rediretion OK. Calling&#8230;</string>
+    <string name="toast_balance">Balance: </string>
+    <string name="toast_credit_czk"> CZK</string>
+    <string name="send_email">Send email</string>
+
+    <!-- Contacts -->
+    <string name="contact_home_phone">Home</string>
+    <string name="contact_mobile_phone">Mobile</string>
+    <string name="contact_work_phone">Work</string>
+    <string name="contact_fax_work_phone">Work Fax</string>
+    <string name="contact_fax_home_phone">Home Fax</string>
+    <string name="contact_pager_phone">Pager</string>
+    <string name="contact_other_phone">Other</string>
+    <string name="contact_callback_phone">CallBack</string>
+    <string name="contact_car_phone">Car</string>
+    <string name="contact_company_main_phone">Company Main</string>
+    <string name="contact_isdn_phone">ISDN</string>
+    <string name="contact_main_phone">Main</string>
+    <string name="contact_other_fax_phone">Other Fax</string>
+    <string name="contact_radio_phone">Radio</string>
+    <string name="contact_telex_phone">Telex</string>
+    <string name="contact_tty_tdd_phone">TtyTdd</string>
+    <string name="contact_work_mobile_phone">Work Mobile</string>
+    <string name="contact_work_pager_phone">Work Pager</string>
+    <string name="contact_assistant_phone">Assistant</string>
+    <string name="contact_mms_phone">MMS</string>
+    <string name="contact_custom">Custom</string>
+    <string name="contact_default"></string>
+
+</resources>

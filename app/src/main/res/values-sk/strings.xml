@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OdorAK</string>
+    <!-- Tabs -->
+    <string name="tabSettings">Nastavení</string>
+    <string name="tabLog">Log</string>
+    <string name="tabAbout">O aplikaci</string>
+    <string name="tabVersion">Zobraz verzi</string>
+    <string name="tabRefresh">Obnovit</string>
+    <string name="tabBalance">Kredit</string>
+    <string name="log_send_email">Odeslat</string>
+    <!-- Prefs -->
+    <string name="inline_credentials">Přístupy</string>
+    <string name="inline_phone_number">Tel. číslo</string>
+    <string name="inline_general">Obecne</string>
+    <string name="odorik_id">Odorik API ID</string>
+    <string name="odorik_id_hint">www.odorik.cz->Přihlásit->Návody a nastavení->Nastavení účtu->API heslo (Uživatel)</string>
+    <string name="odorik_pwd">API Heslo</string>
+    <string name="odorik_pwd_hint">www.odorik.cz->Přihlásit->Návody a nastavení->Nastavení účtu->API heslo (Současné API heslo) Na malých a velkých znacích záleží!</string>
+    <string name="odorik_number">Odorik tel. číslo</string>
+    <string name="odorik_number_hint">Tel. číslo přiřazené k Vaší lince (např. 00420910123456). Používá se pro přesměrování.</string>
+    <string name="mobile_number">Mobilní tel. číslo</string>
+    <string name="mobile_number_hint">Tel. číslo vašeho mobilního telefonu (např. 00420777123456). Používá se pro přesměrování a zpětné volání (CallBack).</string>
+    <string name="odorik_line">Číslo linky u Odorik</string>
+    <string name="odorik_line_hint">www.odorik.cz->Přihlásit->Linky->Číslo v síti (linka). Používá se pro zpětné volání (CallBack).</string>
+    <string name="odorik_pin">Odorik PIN</string>
+    <string name="odorik_pin_hint">Používá se pro objednání zpětného volání prostřednictvím SMS.</string>
+    <string name="skype_name">Skype jméno</string>
+    <string name="skype_name_hint">Vaše Skype jméno. Využívá se pro zpětné volání na Skype.</string>
+    <string name="inline_advanced">Pokročilé</string>
+    <string name="dialer_log_size">Počet položek historie</string>
+    <string name="dialer_log_size_hint">Počet položek historie v seznamu</string>
+    <string name="dialer_list_size">Velikost seznamu</string>
+    <string name="dialer_list_size_hint">Maximálně položek v seznamu</string>
+    <string name="target_number">Volané číslo</string>
+    <string name="auto_call">Volej automaticky</string>
+    <string name="auto_call_hint">Volá automaticky po startu programu</string>    
+    <!-- Alert -->
+    <string name="alert_dialog_settings">Nastavení</string>
+    <string name="alert_dialog_cancel">Zrušit</string>
+    <!-- Menu -->
+    <string name="action_settings">Nastavení</string>
+    <!-- Settings -->
+    <string name="odorik_mode_redirect_short">Přesměr.</string>
+    <string name="odorik_mode_redirect">Přesměrování</string>
+    <string name="odorik_mode_callback">CallBack</string>
+    <string name="odorik_mode_callback_contra">CB-Naop.</string>
+    <string name="odorik_mode_callback_contra_long">CallBack naopak</string>
+    <string name="odorik_mode_callbacksms">CB-SMS</string>
+    <string name="odorik_mode_callbacksms_long">CallBack SMS</string>
+    <string name="odorik_mode_callbackskype">CB-Skype</string>
+    <string name="odorik_mode_callbackskype_long">CallBack Skype</string>
+    <string name="odorik_mode_off">Vypnuto</string>
+    <string name="odorik_mode_off_long">Přímé volání</string>
+    <!--  -->
+    <string name="odorik_error">Akce při chybě</string>
+    <string name="odorik_error_hint">Co dělat, když nastane chyba. Např. není k dispozici internet.</string>
+    <string name="odorik_error_ignore">Automaticky přímé volání</string>
+    <string name="odorik_error_terminate">Přerušit akci</string>
+    <!--  -->
+    <string name="bypass_list">Seznam výjimek</string>
+    <string name="bypass_list_hint">Seznam čísel volaných automaticky na přímo. Čísla oddělujte znakem # (např. 777111111#7772222222#777333333)</string>
+    <!--  -->
+    <string name="csipsimple">CSipSimple instalován</string>
+    <string name="csipsimple_hint">Zaškrtněte v případě problémů (využití CSipSimple vlastní integrace).</string>
+    <!-- Log -->
+    <string name="empty_log">Log je prázdný</string>
+    <!-- Global -->
+    <string name="search_hint">Voláné číslo nebo hledaný text</string>
+    <string name="toast_off_ok">Volám&#8230;</string>
+    <string name="toast_off_bypass_list_ok">Číslo v seznamu výjimek. Volám&#8230;</string>
+    <string name="toast_off_bypass_net_error_ok">Chyba sítě. Ignoruji a volám&#8230;</string>
+    <string name="toast_off_bypass_net_error">Chyba sítě. Opakujte prosím akci.</string>
+    <string name="alert_odorik_error_title">Odorik vrátil chybu.</string>
+    <string name="alert_odorik_error_message_param">Použité parametry: </string>
+    <string name="alert_odorik_error_message_resp">Odorik odpověděl: </string>
+    <string name="toast_unknown_mode">Zvolen neznámý mód.</string>
+    <string name="toast_callbackskype_ok">Zpětné volání pro Skype objednáno.</string>
+    <string name="toast_callbacksms_ok">Odešli připravenou SMS pro objednání zpětného volání.</string>
+    <string name="toast_callback_ok">Zpětné volání objednáno. Vyčkejte na příchozí hovor.</string>
+    <string name="toast_redirect_ok">Přesměrování OK. Volám&#8230;</string>
+    <string name="toast_balance">Kredit: </string>
+    <string name="toast_credit_czk"> Kč</string>
+    <string name="send_email">Odešli email</string>
+
+    <!-- Contacts -->
+    <string name="contact_home_phone">Dům</string>
+    <string name="contact_mobile_phone">Mobil</string>
+    <string name="contact_work_phone">Práce</string>
+    <string name="contact_fax_work_phone">Práce Fax</string>
+    <string name="contact_fax_home_phone">Dům Fax</string>
+    <string name="contact_pager_phone">Pager</string>
+    <string name="contact_other_phone">Ostaní</string>
+    <string name="contact_callback_phone">CallBack</string>
+    <string name="contact_car_phone">Auto</string>
+    <string name="contact_company_main_phone">Firma hlavní</string>
+    <string name="contact_isdn_phone">ISDN</string>
+    <string name="contact_main_phone">Hlavní</string>
+    <string name="contact_other_fax_phone">Další Fax</string>
+    <string name="contact_radio_phone">Radio</string>
+    <string name="contact_telex_phone">Telex</string>
+    <string name="contact_tty_tdd_phone">TtyTdd</string>
+    <string name="contact_work_mobile_phone">Práce Mobil</string>
+    <string name="contact_work_pager_phone">Práce Pager</string>
+    <string name="contact_assistant_phone">Asistent</string>
+    <string name="contact_mms_phone">MMS</string>
+    <string name="contact_custom">Vlastní</string>
+    <string name="contact_default"></string>
+
+</resources>

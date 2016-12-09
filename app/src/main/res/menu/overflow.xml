@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_about"
+        android:showAsAction="never"
+        android:title="@string/tabAbout"/>
+    <item
+        android:id="@+id/menu_version"
+        android:showAsAction="never"
+        android:title="@string/tabVersion"/>    
+    <item
+        android:id="@+id/menu_log"
+        android:icon="@drawable/ic_warning"
+        android:showAsAction="never"
+        android:title="@string/tabLog"/>
+    <item
+        android:id="@+id/menu_credit"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:showAsAction="never"
+        android:title="@string/tabBalance"/>    
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/icon_action_settings"
+        android:showAsAction="never"
+        android:title="@string/tabSettings"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/tabRefresh"/>    
+
+    
+    <!--
+    at each line 
+    <item
+        android:id="@+id/menu_call"
+        android:icon="@drawable/sym_action_call"
+        android:showAsAction="always|withText"
+        android:title="@string/dial"/>     
+    <item
+        android:id="@+id/menu_test"
+        android:showAsAction="never"
+        android:title="Test"/>-->
+</menu>

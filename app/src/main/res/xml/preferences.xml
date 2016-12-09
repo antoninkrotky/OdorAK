@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/inline_credentials" >
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="odorik_id"
+            android:summary="@string/odorik_id_hint"
+            android:title="@string/odorik_id" />
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="odorik_pwd"
+            android:summary="@string/odorik_pwd_hint"
+            android:title="@string/odorik_pwd" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/inline_phone_number" >
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="mobile_number"
+            android:summary="@string/mobile_number_hint"
+            android:title="@string/mobile_number" />
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="odorik_line"
+            android:summary="@string/odorik_line_hint"
+            android:title="@string/odorik_line" />
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="odorik_number"
+            android:summary="@string/odorik_number_hint"
+            android:title="@string/odorik_number" />
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="odorik_pin"
+            android:summary="@string/odorik_pin_hint"
+            android:title="@string/odorik_pin" />
+        <EditTextPreference
+            android:inputType="text"
+            android:key="skype_name"
+            android:summary="@string/skype_name_hint"
+            android:title="@string/skype_name" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/inline_general" >
+        <ListPreference
+            android:id="@+id/odorik_error"
+            android:defaultValue="ignore"
+            android:dialogTitle="@string/odorik_error"
+            android:entries="@array/odorik_error_value"
+            android:entryValues="@array/odorik_error_key"
+            android:key="odorik_error"
+            android:summary="@string/odorik_error_hint"
+            android:title="@string/odorik_error" />
+
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="bypass_list"
+            android:summary="@string/bypass_list_hint"
+            android:title="@string/bypass_list" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_call"
+            android:summary="@string/auto_call_hint"
+            android:title="@string/auto_call" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/inline_advanced" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="csipsimple"
+            android:summary="@string/csipsimple_hint"
+            android:title="@string/csipsimple" />
+
+        <EditTextPreference
+            android:defaultValue="10"
+            android:inputType="number"
+            android:key="dialer_list_size"
+            android:summary="@string/dialer_list_size_hint"
+            android:title="@string/dialer_list_size" />
+        <EditTextPreference
+            android:defaultValue="3"
+            android:inputType="number"
+            android:key="dialer_log_size"
+            android:summary="@string/dialer_log_size_hint"
+            android:title="@string/dialer_log_size" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
